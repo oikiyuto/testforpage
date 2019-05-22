@@ -12,6 +12,8 @@
 		F0E89A92229537D300C4BDF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0E89A90229537D300C4BDF9 /* Main.storyboard */; };
 		F0E89A94229537D800C4BDF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0E89A93229537D800C4BDF9 /* Assets.xcassets */; };
 		F0E89A97229537D800C4BDF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0E89A95229537D800C4BDF9 /* LaunchScreen.storyboard */; };
+		F0E89AA022953E6D00C4BDF9 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E89A9E22953E6C00C4BDF9 /* CollectionViewCell.swift */; };
+		F0E89AA122953E6D00C4BDF9 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0E89A9F22953E6C00C4BDF9 /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F0E89A93229537D800C4BDF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0E89A96229537D800C4BDF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0E89A98229537D800C4BDF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0E89A9E22953E6C00C4BDF9 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		F0E89A9F22953E6C00C4BDF9 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				F0E89A8C229537D300C4BDF9 /* AppDelegate.swift */,
 				F0E89A8E229537D300C4BDF9 /* ViewController.swift */,
+				F0E89A9E22953E6C00C4BDF9 /* CollectionViewCell.swift */,
+				F0E89A9F22953E6C00C4BDF9 /* CollectionViewCell.xib */,
 				F0E89A90229537D300C4BDF9 /* Main.storyboard */,
 				F0E89A93229537D800C4BDF9 /* Assets.xcassets */,
 				F0E89A95229537D800C4BDF9 /* LaunchScreen.storyboard */,
@@ -124,6 +130,7 @@
 			files = (
 				F0E89A97229537D800C4BDF9 /* LaunchScreen.storyboard in Resources */,
 				F0E89A94229537D800C4BDF9 /* Assets.xcassets in Resources */,
+				F0E89AA122953E6D00C4BDF9 /* CollectionViewCell.xib in Resources */,
 				F0E89A92229537D300C4BDF9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			files = (
 				F0E89A8F229537D300C4BDF9 /* ViewController.swift in Sources */,
 				F0E89A8D229537D300C4BDF9 /* AppDelegate.swift in Sources */,
+				F0E89AA022953E6D00C4BDF9 /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PUGYFK58V5;
 				INFOPLIST_FILE = testforpage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PUGYFK58V5;
 				INFOPLIST_FILE = testforpage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
