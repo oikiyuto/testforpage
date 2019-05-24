@@ -43,6 +43,8 @@ class ViewController: UIViewController{
             collectionView.isPagingEnabled = true
             collectionView.isScrollEnabled = true
             
+            collectionView.translatesAutoresizingMaskIntoConstraints = false
+            
             
     }
         

@@ -19,11 +19,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" pagingEnabled="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="PS8-LB-Gma">
-                                <rect key="frame" x="0.0" y="44" width="414" height="735"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="784"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="735" id="eBQ-Ci-MPj"/>
-                                </constraints>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="PaF-mA-ZEY">
                                     <size key="itemSize" width="50" height="50"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -33,7 +30,10 @@
                                 <cells/>
                             </collectionView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="テスト" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uVS-E5-Zla">
-                                <rect key="frame" x="181" y="821" width="52" height="21"/>
+                                <rect key="frame" x="181" y="870" width="52" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="L7G-qh-br7"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -42,11 +42,12 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="PS8-LB-Gma" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="57K-71-60f"/>
+                            <constraint firstItem="PS8-LB-Gma" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="9GW-7p-hlY"/>
                             <constraint firstItem="PS8-LB-Gma" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="HCt-8r-I5V"/>
+                            <constraint firstAttribute="bottom" secondItem="uVS-E5-Zla" secondAttribute="bottom" constant="5" id="KnV-js-mTE"/>
                             <constraint firstItem="uVS-E5-Zla" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="181" id="NMZ-Zn-h6E"/>
                             <constraint firstItem="uVS-E5-Zla" firstAttribute="top" secondItem="PS8-LB-Gma" secondAttribute="bottom" constant="42" id="OP4-8J-aNr"/>
                             <constraint firstItem="PS8-LB-Gma" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="iyU-vm-OMb"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uVS-E5-Zla" secondAttribute="trailing" constant="181" id="xHg-Ma-chP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -56,7 +57,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7.2463768115942031" y="126.5625"/>
+            <point key="canvasLocation" x="-10.144927536231885" y="123.91304347826087"/>
         </scene>
     </scenes>
 </document>
